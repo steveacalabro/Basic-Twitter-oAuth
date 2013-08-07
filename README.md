@@ -6,4 +6,10 @@ This Application is a Basic Twitter authentication using oAuth. It will link the
 To use this simply replace the consumer key and comsumer secret with your generated keys from Twitter(https://dev.twitter.com) *Check back for details on how to get your secret and key.
 
 
+```objectivec
+#define TW_CONSUMER_KEY @"YOUR_CONSUMER_KEY"
+#define TW_CONSUMER_SECRET @"YOUR_CONSUMER_SECRET"
+```
+
+
 
