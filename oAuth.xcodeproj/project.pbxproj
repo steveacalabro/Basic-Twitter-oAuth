@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8A4E2EB174D3FED005AEF7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4E2EA174D3FED005AEF7A /* UIKit.framework */; };
+		C8A4E2ED174D3FED005AEF7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4E2EC174D3FED005AEF7A /* Foundation.framework */; };
+		C8A4E2EF174D3FED005AEF7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4E2EE174D3FED005AEF7A /* CoreGraphics.framework */; };
+		C8A4E2F5174D3FED005AEF7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8A4E2F3174D3FED005AEF7A /* InfoPlist.strings */; };
+		C8A4E2F7174D3FED005AEF7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E2F6174D3FED005AEF7A /* main.m */; };
+		C8A4E2FB174D3FED005AEF7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E2FA174D3FED005AEF7A /* AppDelegate.m */; };
+		C8A4E2FD174D3FED005AEF7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A4E2FC174D3FED005AEF7A /* Default.png */; };
+		C8A4E2FF174D3FED005AEF7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A4E2FE174D3FED005AEF7A /* Default@2x.png */; };
+		C8A4E301174D3FED005AEF7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A4E300174D3FED005AEF7A /* Default-568h@2x.png */; };
+		C8A4E304174D3FED005AEF7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E303174D3FED005AEF7A /* ViewController.m */; };
+		C8A4E307174D3FED005AEF7A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A4E305174D3FED005AEF7A /* ViewController_iPhone.xib */; };
+		C8A4E30A174D3FED005AEF7A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A4E308174D3FED005AEF7A /* ViewController_iPad.xib */; };
+		C8A4E318174D4012005AEF7A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E313174D4012005AEF7A /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C8A4E319174D4012005AEF7A /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E315174D4012005AEF7A /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C8A4E31A174D4012005AEF7A /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E317174D4012005AEF7A /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C8A4E320174D4092005AEF7A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4E31F174D4092005AEF7A /* Accounts.framework */; };
+		C8A4E322174D4096005AEF7A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4E321174D4096005AEF7A /* Twitter.framework */; };
+		C8A4E324174D409E005AEF7A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4E323174D409E005AEF7A /* Social.framework */; };
+		C8A4E325174D40AC005AEF7A /* TWAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E31C174D4023005AEF7A /* TWAPIManager.m */; };
+		C8A4E326174D40AC005AEF7A /* TWSignedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4E31E174D4023005AEF7A /* TWSignedRequest.m */; settings = {COMPILER_FLAGS = "-D'TWITTER_CONSUMER_KEY=@\"$(lazbaBsUJrxbI5XBv9LA)\"' -D'TWITTER_CONSUMER_SECRET=@\"$(LdMjtvflsu41xlHtHINEbLipxFY6ExdZGmJPg92DY)\"'"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8A4E2E7174D3FED005AEF7A /* oAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A4E2EA174D3FED005AEF7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8A4E2EC174D3FED005AEF7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8A4E2EE174D3FED005AEF7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8A4E2F2174D3FED005AEF7A /* oAuth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oAuth-Info.plist"; sourceTree = "<group>"; };
+		C8A4E2F4174D3FED005AEF7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8A4E2F6174D3FED005AEF7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8A4E2F8174D3FED005AEF7A /* oAuth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oAuth-Prefix.pch"; sourceTree = "<group>"; };
+		C8A4E2F9174D3FED005AEF7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8A4E2FA174D3FED005AEF7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8A4E2FC174D3FED005AEF7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C8A4E2FE174D3FED005AEF7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C8A4E300174D3FED005AEF7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C8A4E302174D3FED005AEF7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8A4E303174D3FED005AEF7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8A4E306174D3FED005AEF7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C8A4E309174D3FED005AEF7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C8A4E312174D4012005AEF7A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		C8A4E313174D4012005AEF7A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		C8A4E314174D4012005AEF7A /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		C8A4E315174D4012005AEF7A /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		C8A4E316174D4012005AEF7A /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		C8A4E317174D4012005AEF7A /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
+		C8A4E31B174D4023005AEF7A /* TWAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TWAPIManager.h; path = Vendor/TWAPIManager.h; sourceTree = "<group>"; };
+		C8A4E31C174D4023005AEF7A /* TWAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TWAPIManager.m; path = Vendor/TWAPIManager.m; sourceTree = "<group>"; };
+		C8A4E31D174D4023005AEF7A /* TWSignedRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TWSignedRequest.h; path = Vendor/TWSignedRequest.h; sourceTree = "<group>"; };
+		C8A4E31E174D4023005AEF7A /* TWSignedRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TWSignedRequest.m; path = Vendor/TWSignedRequest.m; sourceTree = "<group>"; };
+		C8A4E31F174D4092005AEF7A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C8A4E321174D4096005AEF7A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C8A4E323174D409E005AEF7A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A4E2E4174D3FED005AEF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A4E324174D409E005AEF7A /* Social.framework in Frameworks */,
+				C8A4E322174D4096005AEF7A /* Twitter.framework in Frameworks */,
+				C8A4E320174D4092005AEF7A /* Accounts.framework in Frameworks */,
+				C8A4E2EB174D3FED005AEF7A /* UIKit.framework in Frameworks */,
+				C8A4E2ED174D3FED005AEF7A /* Foundation.framework in Frameworks */,
+				C8A4E2EF174D3FED005AEF7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A4E2DE174D3FED005AEF7A = {
+			isa = PBXGroup;
+			children = (
+				C8A4E323174D409E005AEF7A /* Social.framework */,
+				C8A4E321174D4096005AEF7A /* Twitter.framework */,
+				C8A4E31F174D4092005AEF7A /* Accounts.framework */,
+				C8A4E2F0174D3FED005AEF7A /* oAuth */,
+				C8A4E2E9174D3FED005AEF7A /* Frameworks */,
+				C8A4E2E8174D3FED005AEF7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A4E2E8174D3FED005AEF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4E2E7174D3FED005AEF7A /* oAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A4E2E9174D3FED005AEF7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4E2EA174D3FED005AEF7A /* UIKit.framework */,
+				C8A4E2EC174D3FED005AEF7A /* Foundation.framework */,
+				C8A4E2EE174D3FED005AEF7A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A4E2F0174D3FED005AEF7A /* oAuth */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4E310174D4012005AEF7A /* Vendor */,
+				C8A4E31B174D4023005AEF7A /* TWAPIManager.h */,
+				C8A4E31C174D4023005AEF7A /* TWAPIManager.m */,
+				C8A4E31D174D4023005AEF7A /* TWSignedRequest.h */,
+				C8A4E31E174D4023005AEF7A /* TWSignedRequest.m */,
+				C8A4E2F9174D3FED005AEF7A /* AppDelegate.h */,
+				C8A4E2FA174D3FED005AEF7A /* AppDelegate.m */,
+				C8A4E302174D3FED005AEF7A /* ViewController.h */,
+				C8A4E303174D3FED005AEF7A /* ViewController.m */,
+				C8A4E305174D3FED005AEF7A /* ViewController_iPhone.xib */,
+				C8A4E308174D3FED005AEF7A /* ViewController_iPad.xib */,
+				C8A4E2F1174D3FED005AEF7A /* Supporting Files */,
+			);
+			path = oAuth;
+			sourceTree = "<group>";
+		};
+		C8A4E2F1174D3FED005AEF7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4E2F2174D3FED005AEF7A /* oAuth-Info.plist */,
+				C8A4E2F3174D3FED005AEF7A /* InfoPlist.strings */,
+				C8A4E2F6174D3FED005AEF7A /* main.m */,
+				C8A4E2F8174D3FED005AEF7A /* oAuth-Prefix.pch */,
+				C8A4E2FC174D3FED005AEF7A /* Default.png */,
+				C8A4E2FE174D3FED005AEF7A /* Default@2x.png */,
+				C8A4E300174D3FED005AEF7A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8A4E310174D4012005AEF7A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4E311174D4012005AEF7A /* ABOAuthCore */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C8A4E311174D4012005AEF7A /* ABOAuthCore */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4E312174D4012005AEF7A /* NSData+Base64.h */,
+				C8A4E313174D4012005AEF7A /* NSData+Base64.m */,
+				C8A4E314174D4012005AEF7A /* OAuth+Additions.h */,
+				C8A4E315174D4012005AEF7A /* OAuth+Additions.m */,
+				C8A4E316174D4012005AEF7A /* OAuthCore.h */,
+				C8A4E317174D4012005AEF7A /* OAuthCore.m */,
+			);
+			path = ABOAuthCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A4E2E6174D3FED005AEF7A /* oAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A4E30D174D3FED005AEF7A /* Build configuration list for PBXNativeTarget "oAuth" */;
+			buildPhases = (
+				C8A4E2E3174D3FED005AEF7A /* Sources */,
+				C8A4E2E4174D3FED005AEF7A /* Frameworks */,
+				C8A4E2E5174D3FED005AEF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oAuth;
+			productName = oAuth;
+			productReference = C8A4E2E7174D3FED005AEF7A /* oAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A4E2DF174D3FED005AEF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Development Mini";
+			};
+			buildConfigurationList = C8A4E2E2174D3FED005AEF7A /* Build configuration list for PBXProject "oAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8A4E2DE174D3FED005AEF7A;
+			productRefGroup = C8A4E2E8174D3FED005AEF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A4E2E6174D3FED005AEF7A /* oAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A4E2E5174D3FED005AEF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A4E2F5174D3FED005AEF7A /* InfoPlist.strings in Resources */,
+				C8A4E2FD174D3FED005AEF7A /* Default.png in Resources */,
+				C8A4E2FF174D3FED005AEF7A /* Default@2x.png in Resources */,
+				C8A4E301174D3FED005AEF7A /* Default-568h@2x.png in Resources */,
+				C8A4E307174D3FED005AEF7A /* ViewController_iPhone.xib in Resources */,
+				C8A4E30A174D3FED005AEF7A /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A4E2E3174D3FED005AEF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A4E325174D40AC005AEF7A /* TWAPIManager.m in Sources */,
+				C8A4E326174D40AC005AEF7A /* TWSignedRequest.m in Sources */,
+				C8A4E2F7174D3FED005AEF7A /* main.m in Sources */,
+				C8A4E2FB174D3FED005AEF7A /* AppDelegate.m in Sources */,
+				C8A4E304174D3FED005AEF7A /* ViewController.m in Sources */,
+				C8A4E318174D4012005AEF7A /* NSData+Base64.m in Sources */,
+				C8A4E319174D4012005AEF7A /* OAuth+Additions.m in Sources */,
+				C8A4E31A174D4012005AEF7A /* OAuthCore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8A4E2F3174D3FED005AEF7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A4E2F4174D3FED005AEF7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8A4E305174D3FED005AEF7A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A4E306174D3FED005AEF7A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C8A4E308174D3FED005AEF7A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A4E309174D3FED005AEF7A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8A4E30B174D3FED005AEF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8A4E30C174D3FED005AEF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8A4E30E174D3FED005AEF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oAuth/oAuth-Prefix.pch";
+				INFOPLIST_FILE = "oAuth/oAuth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8A4E30F174D3FED005AEF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oAuth/oAuth-Prefix.pch";
+				INFOPLIST_FILE = "oAuth/oAuth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A4E2E2174D3FED005AEF7A /* Build configuration list for PBXProject "oAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A4E30B174D3FED005AEF7A /* Debug */,
+				C8A4E30C174D3FED005AEF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A4E30D174D3FED005AEF7A /* Build configuration list for PBXNativeTarget "oAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A4E30E174D3FED005AEF7A /* Debug */,
+				C8A4E30F174D3FED005AEF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A4E2DF174D3FED005AEF7A /* Project object */;
+}
